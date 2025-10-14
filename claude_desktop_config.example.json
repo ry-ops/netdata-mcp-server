@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "netdata": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/REPLACE/WITH/FULL/PATH/TO/netdata-mcp-server",
+        "run",
+        "python",
+        "-m",
+        "netdata_mcp.server"
+      ],
+      "env": {
+        "NETDATA_URL": "http://localhost:19999",
+        "NETDATA_API_KEY": ""
+      }
+    }
+  }
+}
