@@ -1,3 +1,5 @@
+<img src="https://github.com/ry-ops/netdata-mcp-server/blob/main/netdata_mcp_server.png" width="100%">
+
 # Netdata MCP Server
 
 A Model Context Protocol (MCP) server that integrates [Netdata](https://www.netdata.cloud/) monitoring capabilities with Claude. This allows Claude to query metrics, monitor system health, analyze alerts, and interact with Netdata's real-time monitoring data.
